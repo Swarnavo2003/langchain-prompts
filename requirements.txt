@@ -1,0 +1,24 @@
+# LangChain Core
+langchain
+langchain-core
+
+# OpenAI
+langchain-openai
+openai
+
+# Anthropic
+langchain-anthropic
+
+# Gemini
+langchain-google-genai
+google-generativeai
+
+# Hugging Face (API based)
+langchain-huggingface
+huggingface-hub
+
+# Env
+python-dotenv
+
+# UI
+streamlit

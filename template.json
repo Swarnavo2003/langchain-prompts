@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an AI research assistant.\n\nSummarize the research paper titled \"{paper_input}\" with the following constraints:\n\nExplanation Style: {style_input}\nExplanation Length: {length_input}\n\nRequirements:\n- Include mathematical details only if they are central to the paper\n- Explain math concepts with intuitive explanations or simple pseudocode\n- Use analogies where helpful\n- Do NOT hallucinate details\n- If required information is unavailable, say: \"Insufficient information available\"\n\nProduce a clear, accurate, and well-structured summary.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
